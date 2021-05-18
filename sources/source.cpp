@@ -1,4 +1,4 @@
-// Copyright 2020 Your Name <your_email>
+// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
 
 #include <header.hpp>
 
@@ -35,7 +35,10 @@ void Builder::start(const po::variables_map& vm) {
 
   std::unique_ptr<timer> _timer;
   if (p_process->get_time() != 0) {
-    _timer = std::make_unique<timer>(timer(std::chrono::seconds(p_process->get_time()),time_handler, process_info));
+    _timer = std::make_unique<timer>(timer(
+        std::chrono::seconds(p_process->get_time()),
+        time_handler,
+        process_info));
   }
   try{
     std::this_thread::sleep_for(std::chrono::seconds(4));

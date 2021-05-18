@@ -1,3 +1,5 @@
+// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
+
 #include <header.hpp>
 
 int main(int argc, const char *argv[]) {

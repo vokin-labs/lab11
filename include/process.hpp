@@ -1,12 +1,11 @@
-//
-// Created by aleksandr on 10.05.2021.
-//
+// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
 
 #include <header.hpp>
 #include <utility>
+#include <string>
 
-#ifndef TEMPLATE_PROCESS_H
-#define TEMPLATE_PROCESS_H
+#ifndef INCLUDE_PROCESS_HPP_
+#define INCLUDE_PROCESS_HPP_
 
 class Process{
  public:
@@ -17,7 +16,7 @@ class Process{
       : config(std::move(config_)),
         install(install_),
         pack(pack_),
-        time(time_) {};
+        time(time_) {}
 
   bool get_pack() const {return pack;}
 
@@ -74,4 +73,4 @@ class timer{
     if (_timer_thread.joinable()) _timer_thread.detach();
   }
 };
-#endif  // TEMPLATE_PROCESS_H
+#endif  // INCLUDE_PROCESS_HPP_
