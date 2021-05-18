@@ -1,7 +1,7 @@
 // Copyright 2021 MIX-1 <danilonil1@yandex.ru>
 
-#ifndef INCLUDE_HEADER_HPP_
-#define INCLUDE_HEADER_HPP_
+#ifndef INCLUDE_BUILDER_HPP_
+#define INCLUDE_BUILDER_HPP_
 
 #include <boost/log/core.hpp>
 #include <boost/log/trivial.hpp>
@@ -49,4 +49,4 @@ class Builder{
   Process* p_process;
 };
 
-#endif // INCLUDE_HEADER_HPP_
+#endif // INCLUDE_BUILDER_HPP_

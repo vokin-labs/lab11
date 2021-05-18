@@ -1,8 +1,8 @@
 // Copyright 2021 MIX-1 <danilonil1@yandex.ru>
 
-#include <header.hpp>
-#include <utility>
+#include <Builder.hpp>
 #include <string>
+#include <utility>
 
 #ifndef INCLUDE_PROCESS_HPP_
 #define INCLUDE_PROCESS_HPP_
@@ -32,7 +32,7 @@ class Process{
       return ("--build " + BUILD_TARGET +
               (target != "build" ? (" --target " + target) : ""));
     }
-  };
+  }
 
  private:
   std::string config;
