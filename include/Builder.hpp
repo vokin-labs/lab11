@@ -1,4 +1,4 @@
-// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
+// Copyright 2021 vokin-labs <vokinsilok2305@mail.ru>
 
 #ifndef INCLUDE_BUILDER_HPP_
 #define INCLUDE_BUILDER_HPP_
